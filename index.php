@@ -14,8 +14,8 @@
 </head>
 <body>
 	<header>
-		<div class="header-ico">
-			<a href="index.html" class="logo"></a>
+		<div class="site-name">
+			<a href="#">Бахрома</a>
 		</div>
 		<div class="header-search">
 			<input type="text" placeholder="Поиск по названию или номеру артикула">
@@ -24,9 +24,6 @@
 			<a href="#">Личный кабинет</a>
 			<a href="#">Избранное</a>
 			<a href="#">Корзина</a>
-		</div>
-		<div class="mobile-name">
-			<p>Бахрома</p>
 		</div>
 		<div class="header-mobile">
 			<span class="icon-search-mobile" id="icon-search-mobile" onclick="openSearch()"><i class="fa fa-search" aria-hidden="true"></i></span>
