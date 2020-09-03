@@ -30,7 +30,6 @@ nav a:hover{
   .topnav a:not(:first-child) {display: none;}
   .topnav a.nav-mobile-icon {
   	display: block;
-  	background: #3498DB;
   }
 
   .topnav.responsive {
