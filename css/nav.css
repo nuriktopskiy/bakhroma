@@ -30,7 +30,7 @@ nav a:hover{
   .topnav a:not(:first-child) {display: none;}
   .topnav a.nav-mobile-icon {
   	display: block;
-  	background: #00afff;
+  	background: #3498DB;
   	position: absolute;
   	right: 0;
     top: 100px;
@@ -40,10 +40,11 @@ nav a:hover{
 
   .topnav.responsive {
   	display: block;
+  	z-index: 2;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .nav-mobile-icon {
     position: absolute;
@@ -59,5 +60,9 @@ nav a:hover{
 
   .topnav.responsive a:hover {
   	background: black;
+  }
+
+  #catalog-mobile-off{
+  	display: none;
   }
 }

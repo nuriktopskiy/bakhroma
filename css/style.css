@@ -7,3 +7,7 @@
 }
 html, body {height:100%; box-sizing: border-box; margin:0;}
 html {font-size:100.01%;overflow-x:hidden;}
+
+.wrapper{
+	display: flex;
+}
