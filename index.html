@@ -8,12 +8,14 @@
 	<link rel="stylesheet" href="css/nav.css">
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/items.css">
+	<link rel="stylesheet" href="css/aside.css">
+	<link rel="stylesheet" href="css/dropdown.css">
 	<title>Салон штор Бахрома</title>
 </head>
 <body>
 	<header>
 		<div class="header-ico">
-			<a href="index.html" class="logo"></a>
+			<a href="/" class="logo"></a>
 		</div>
 		<div class="header-search">
 			<input type="text" placeholder="Поиск по названию или номеру артикула">
@@ -35,7 +37,7 @@
 
 	<nav class="topnav" id="myTopnav">
 		<a href="#">Главная</a>
-		<a href="#">Каталог</a>
+		<a href="#" id="catalog-mobile-off">Каталог</a>
 		<a href="#">Портфолио</a>
 		<a href="#">Контакты</a>
 		<a href="#">О магазине</a>
@@ -48,45 +50,173 @@
 		<input type="text" placeholder="Поиск по названию или номеру артикула">
 	</div>
 	<script src="js/nav.js"></script>
+	<div class="mobile-dropdown">
+			<div class="dropdown">
+				<button onclick="dropdownFunction()" class="dropbtn">Каталог</button>
+			  	<div id="myDropdown" class="dropdown-content">
+				    <a href="#home">Все ткани</a>
+				    <a href="#about">Бархат</a>
+				    <a href="#contact">Блэкаут</a>
+				    <a href="#contact">Жаккард</a>
+				    <a href="#contact">Портьера</a>
+				    <a href="#contact">Тафта</a>
+				    <a href="#contact">Лён</a>
+				    <a href="#contact">Тюль</a>
+			  	</div>
+			</div>
 
-	<div class="row">
-	  <div class="column">
-	    <div class="card">
-	      <img src="img/1.jpg" alt="Jane" style="width:100%">
-	      <div class="container">
-	        <h2>622р</h2>
-	        <p class="title">IRIS \ тюль</p>
-	        <p>Тюль белый, прозрачный, размер 280*260, 100 % полиэстер.</p>
-	        <p><button class="button">В корзину</button></p>
-	      </div>
-	    </div>
-	  </div>
+			<div class="dropdown">
+				<button onclick="dropdownFunction2()" class="dropbtn">Сортировать по</button>
+			  	<div id="myDropdown2" class="dropdown-content">
+				    <a href="#home">Популярности</a>
+				    <a href="#about">Рейтингу</a>
+				    <a href="#contact">Цене</a>
+				    <a href="#contact">Скидке</a>
+				    <a href="#contact">Обновлению</a>
+			  	</div>
+			</div>
 
-	  <div class="column">
-	    <div class="card">
-	      <img src="team2.jpg" alt="Mike" style="width:100%">
-	      <div class="container">
-	        <h2>Mike Ross</h2>
-	        <p class="title">Art Director</p>
-	        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-	        <p>example@example.com</p>
-	        <p><button class="button">Contact</button></p>
-	      </div>
-	    </div>
-	  </div>
-	  <div class="column">
-	    <div class="card">
-	      <img src="team3.jpg" alt="John" style="width:100%">
-	      <div class="container">
-	        <h2>HTML CSS</h2>
-	        <p class="title">Designer</p>
-	        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-	        <p>example@example.com</p>
-	        <p><button class="button">Contact</button></p>
-	      </div>
-	    </div>
-	  </div>
-	</div>
+			<div class="dropdown">
+				<button onclick="dropdownFunction3()" class="dropbtn">Фильтры</button>
+			  	<div id="myDropdown3" class="dropdown-content">
+				    <a href="#home">Цена</a>
+				    <a href="#about">Цвет</a>
+			  	</div>
+			</div>
+		</div>
+		<script src="js/dropdown.js"></script>
+	<div class="wrapper">
+		<div class="sidebar">
+			<div class="content-menu">
+				<div class="border-aside">
+					<h1>Каталог</h1>
+					<ul>
+						<li>Все ткани</li>
+						<li>Бархат</li>
+						<li>Блэкаут</li>
+						<li>Жаккард</li>
+						<li>Портьера</li>
+						<li>Тафта</li>
+						<li>Лён</li>
+						<li>Тюль</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="content-menu">
+				<div class="border-aside">
+					<h1>Доставка</h1>
+					<p>В нашем магазине доступны различные виды доставки для вашего удобства.</p>
+				</div>
+			</div>
+
+			<div class="content-menu">
+				<div class="border-aside">
+					<h1>Оплата</h1>
+					<p>Можно оплатить переводом на карту (если заказ оформлен на сайте) или наличными в нашем магазине.</p>
+				</div>
+			</div>
+
+			<div class="content-menu">
+				<div class="border-aside">
+					<h1>Пункты самовывоза</h1>
+					<p>1) Дальневосточный проспект 14, Мебельвуд</p>
+					<p>2) ул. Крыленко</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+		  <div class="column">
+		    <div class="card">
+		      <img src="img/1.jpg" alt="Jane" style="width:100%">
+		      <div class="container">
+		        <h2>Jane Doe</h2>
+		        <p class="title">CEO & Founder</p>
+		        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+		        <p>example@example.com</p>
+		        <p><button class="button">Contact</button></p>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="column">
+		    <div class="card">
+		      <img src="img/1.jpg" alt="Jane" style="width:100%">
+		      <div class="container">
+		        <h2>Jane Doe</h2>
+		        <p class="title">CEO & Founder</p>
+		        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+		        <p>example@example.com</p>
+		        <p><button class="button">Contact</button></p>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="column">
+		    <div class="card">
+		      <img src="img/1.jpg" alt="Jane" style="width:100%">
+		      <div class="container">
+		        <h2>Jane Doe</h2>
+		        <p class="title">CEO & Founder</p>
+		        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+		        <p>example@example.com</p>
+		        <p><button class="button">Contact</button></p>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="column">
+		    <div class="card">
+		      <img src="img/1.jpg" alt="Jane" style="width:100%">
+		      <div class="container">
+		        <h2>Jane Doe</h2>
+		        <p class="title">CEO & Founder</p>
+		        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+		        <p>example@example.com</p>
+		        <p><button class="button">Contact</button></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="column">
+		    <div class="card">
+		      <img src="img/1.jpg" alt="Jane" style="width:100%">
+		      <div class="container">
+		        <h2>Jane Doe</h2>
+		        <p class="title">CEO & Founder</p>
+		        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+		        <p>example@example.com</p>
+		        <p><button class="button">Contact</button></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="column">
+		    <div class="card">
+		      <img src="img/1.jpg" alt="Jane" style="width:100%">
+		      <div class="container">
+		        <h2>Jane Doe</h2>
+		        <p class="title">CEO & Founder</p>
+		        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+		        <p>example@example.com</p>
+		        <p><button class="button">Contact</button></p>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="column">
+		    <div class="card">
+		      <img src="img/1.jpg" alt="Jane" style="width:100%">
+		      <div class="container">
+		        <h2>Jane Doe</h2>
+		        <p class="title">CEO & Founder</p>
+		        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+		        <p>example@example.com</p>
+		        <p><button class="button">Contact</button></p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div> <!-- Конец Wrapper -->
 
 </body>
 </html>
