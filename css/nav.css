@@ -31,11 +31,6 @@ nav a:hover{
   .topnav a.nav-mobile-icon {
   	display: block;
   	background: #3498DB;
-  	position: absolute;
-  	right: 0;
-    top: 100px;
-    font-size: 20px;
-    padding: 10.5px;
   }
 
   .topnav.responsive {
