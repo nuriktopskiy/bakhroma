@@ -1,6 +1,6 @@
 .row{
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
   float: left;
@@ -13,6 +13,14 @@
   min-width: 15.5%;
   margin-bottom: 16px;
   padding: 0 8px;
+}
+
+.container p.title{
+  margin: 0;
+}
+
+.container h2{
+  margin: 10px 0px 5px 0px;
 }
 
 @media screen and (max-width: 767px) {

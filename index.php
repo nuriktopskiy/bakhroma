@@ -128,11 +128,9 @@
 		    <div class="card">
 		      <img src="img/1.jpg" alt="Jane" style="width:100%">
 		      <div class="container">
-		        <h2>Jane Doe</h2>
-		        <p class="title">CEO & Founder</p>
-		        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-		        <p>example@example.com</p>
-		        <p><button class="button">Contact</button></p>
+		        <h2>622 ₽</h2>
+		        <p class="title">Тюль</p>
+		        <p><button class="button">В корзину</button></p>
 		      </div>
 		    </div>
 		  </div>
@@ -141,11 +139,9 @@
 		    <div class="card">
 		      <img src="img/1.jpg" alt="Jane" style="width:100%">
 		      <div class="container">
-		        <h2>Jane Doe</h2>
-		        <p class="title">CEO & Founder</p>
-		        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-		        <p>example@example.com</p>
-		        <p><button class="button">Contact</button></p>
+		        <h2>622 ₽</h2>
+		        <p class="title">Тюль</p>
+		        <p><button class="button">В корзину</button></p>
 		      </div>
 		    </div>
 		  </div>
@@ -154,11 +150,9 @@
 		    <div class="card">
 		      <img src="img/1.jpg" alt="Jane" style="width:100%">
 		      <div class="container">
-		        <h2>Jane Doe</h2>
-		        <p class="title">CEO & Founder</p>
-		        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-		        <p>example@example.com</p>
-		        <p><button class="button">Contact</button></p>
+		        <h2>622 ₽</h2>
+		        <p class="title">Тюль</p>
+		        <p><button class="button">В корзину</button></p>
 		      </div>
 		    </div>
 		  </div>
@@ -167,35 +161,9 @@
 		    <div class="card">
 		      <img src="img/1.jpg" alt="Jane" style="width:100%">
 		      <div class="container">
-		        <h2>Jane Doe</h2>
-		        <p class="title">CEO & Founder</p>
-		        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-		        <p>example@example.com</p>
-		        <p><button class="button">Contact</button></p>
-		      </div>
-		    </div>
-		  </div>
-		  <div class="column">
-		    <div class="card">
-		      <img src="img/1.jpg" alt="Jane" style="width:100%">
-		      <div class="container">
-		        <h2>Jane Doe</h2>
-		        <p class="title">CEO & Founder</p>
-		        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-		        <p>example@example.com</p>
-		        <p><button class="button">Contact</button></p>
-		      </div>
-		    </div>
-		  </div>
-		  <div class="column">
-		    <div class="card">
-		      <img src="img/1.jpg" alt="Jane" style="width:100%">
-		      <div class="container">
-		        <h2>Jane Doe</h2>
-		        <p class="title">CEO & Founder</p>
-		        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-		        <p>example@example.com</p>
-		        <p><button class="button">Contact</button></p>
+		        <h2>622 ₽</h2>
+		        <p class="title">Тюль</p>
+		        <p><button class="button">В корзину</button></p>
 		      </div>
 		    </div>
 		  </div>
@@ -204,11 +172,97 @@
 		    <div class="card">
 		      <img src="img/1.jpg" alt="Jane" style="width:100%">
 		      <div class="container">
-		        <h2>Jane Doe</h2>
-		        <p class="title">CEO & Founder</p>
-		        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-		        <p>example@example.com</p>
-		        <p><button class="button">Contact</button></p>
+		        <h2>622 ₽</h2>
+		        <p class="title">Тюль</p>
+		        <p><button class="button">В корзину</button></p>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="column">
+		    <div class="card">
+		      <img src="img/1.jpg" alt="Jane" style="width:100%">
+		      <div class="container">
+		        <h2>622 ₽</h2>
+		        <p class="title">Тюль</p>
+		        <p><button class="button">В корзину</button></p>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="column">
+		    <div class="card">
+		      <img src="img/1.jpg" alt="Jane" style="width:100%">
+		      <div class="container">
+		        <h2>622 ₽</h2>
+		        <p class="title">Тюль</p>
+		        <p><button class="button">В корзину</button></p>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="column">
+		    <div class="card">
+		      <img src="img/1.jpg" alt="Jane" style="width:100%">
+		      <div class="container">
+		        <h2>622 ₽</h2>
+		        <p class="title">Тюль</p>
+		        <p><button class="button">В корзину</button></p>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="column">
+		    <div class="card">
+		      <img src="img/1.jpg" alt="Jane" style="width:100%">
+		      <div class="container">
+		        <h2>622 ₽</h2>
+		        <p class="title">Тюль</p>
+		        <p><button class="button">В корзину</button></p>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="column">
+		    <div class="card">
+		      <img src="img/1.jpg" alt="Jane" style="width:100%">
+		      <div class="container">
+		        <h2>622 ₽</h2>
+		        <p class="title">Тюль</p>
+		        <p><button class="button">В корзину</button></p>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="column">
+		    <div class="card">
+		      <img src="img/1.jpg" alt="Jane" style="width:100%">
+		      <div class="container">
+		        <h2>622 ₽</h2>
+		        <p class="title">Тюль</p>
+		        <p><button class="button">В корзину</button></p>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="column">
+		    <div class="card">
+		      <img src="img/1.jpg" alt="Jane" style="width:100%">
+		      <div class="container">
+		        <h2>622 ₽</h2>
+		        <p class="title">Тюль</p>
+		        <p><button class="button">В корзину</button></p>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="column">
+		    <div class="card">
+		      <img src="img/1.jpg" alt="Jane" style="width:100%">
+		      <div class="container">
+		        <h2>622 ₽</h2>
+		        <p class="title">Тюль</p>
+		        <p><button class="button">В корзину</button></p>
 		      </div>
 		    </div>
 		  </div>
