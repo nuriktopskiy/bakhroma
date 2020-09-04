@@ -25,6 +25,10 @@ header{
 	display: none;
 }
 
+.icon-search-mobile{
+	display: none;
+}
+
 .mobile-search input{
 	padding: 8px;
 	width: 100%;
@@ -49,6 +53,18 @@ header{
 	font-size: 36px;
 }
 
+@media screen and (max-width: 1400px) {
+	header{
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 1120px) {
+	header{
+		width: 80%;
+	}
+}
+
 @media screen and (max-width: 1024px) {
 	header{
 		width: 100%;
@@ -67,5 +83,9 @@ header{
 		justify-content: space-between;
 		align-items: center;
 		width: 62px;
+	}
+
+	.icon-search-mobile{
+		display: block;
 	}
 }
