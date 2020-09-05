@@ -11,4 +11,6 @@ html {font-size:100.01%;overflow-x:hidden;}
 
 .wrapper{
 	display: flex;
+	position: relative;
+	min-height: 100%;
 }

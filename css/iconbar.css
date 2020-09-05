@@ -1,0 +1,71 @@
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.icon-bar-mobile a {
+  display: inline-block;
+  padding: 12px;
+  color: white;
+  font-size: 20px;
+  bottom: 0;
+}
+
+.icon-bar-mobile{
+  text-align: center;
+  height: 51.2px;
+}
+
+.icon-bar-mobile a:hover {
+    background-color: #000;
+}
+
+.whatsapp {
+  background: #2dd449;
+  color: white;
+}
+
+.vk {
+  background: #5181b8;
+  color: white;
+}
+
+.instagram {
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  color: white;
+}
+
+.github {
+  background: #323131;
+  color: white;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 1024px) {
+  .icon-bar{
+    visibility: hidden;
+  }
+
+  .icon-bar-mobile{
+    visibility: visible;
+  }
+}
