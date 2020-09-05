@@ -15,19 +15,28 @@
 <body>
 	<header>
 		<div class="site-name">
-			<a href="#">Бахрома</a>
+			<a href="index.html">Бахрома</a>
 		</div>
 		<div class="header-search">
 			<input type="text" placeholder="Поиск по названию или номеру артикула">
 		</div>
 		<div class="header-other">
-			<a href="#">Личный кабинет</a>
-			<a href="#">Избранное</a>
-			<a href="#">Корзина</a>
+			<div class="lk">
+				<i class="fa fa-user-circle-o" aria-hidden="true"></i>
+				<a href="#">Личный кабинет</a>
+			</div>
+			<div class="fav">
+				<i class="fa fa-heart" aria-hidden="true"></i>
+				<a href="#">Избранное</a>
+			</div>
+			<div class="cart">
+				<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+				<a href="#">Корзина</a>
+			</div>
 		</div>
 		<div class="header-mobile">
 			<span class="icon-search-mobile" id="icon-search-mobile" onclick="openSearch()"><i class="fa fa-search" aria-hidden="true"></i></span>
-			<i class="fa fa-user-circle-o" aria-hidden="true"></i>
+			<a href="#" style="text-decoration: none; color: black;"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
 		</div>
 		<script src="js/mobile-search.js"></script>
 	</header>
@@ -86,37 +95,35 @@
 		<div class="sidebar">
 			<div class="content-menu">
 				<div class="border-aside">
-					<h1>Каталог</h1>
-					<ul>
-						<li>Все ткани</li>
-						<li>Бархат</li>
-						<li>Блэкаут</li>
-						<li>Жаккард</li>
-						<li>Портьера</li>
-						<li>Тафта</li>
-						<li>Лён</li>
-						<li>Тюль</li>
-					</ul>
+					<h2 style="margin: 12px 0px 8px 0px;">Каталог</h2>
+					<a href="#">Все ткани</a>
+					<a href="#">Бархат</a>
+					<a href="#">Блэкаут</a>
+					<a href="#">Жаккард</a>
+					<a href="#">Портьера</a>
+					<a href="#">Тафта</a>
+					<a href="#">Лён</a>
+					<a href="#">Тюль</a>
 				</div>
 			</div>
 
 			<div class="content-menu">
 				<div class="border-aside">
-					<h1>Доставка</h1>
+					<h2>Доставка</h2>
 					<p>В нашем магазине доступны различные виды доставки для вашего удобства.</p>
 				</div>
 			</div>
 
 			<div class="content-menu">
 				<div class="border-aside">
-					<h1>Оплата</h1>
+					<h2>Оплата</h2>
 					<p>Можно оплатить переводом на карту (если заказ оформлен на сайте) или наличными в нашем магазине.</p>
 				</div>
 			</div>
 
 			<div class="content-menu">
 				<div class="border-aside">
-					<h1>Пункты самовывоза</h1>
+					<h2>Пункты самовывоза</h2>
 					<p>1) Дальневосточный проспект 14, Мебельвуд</p>
 					<p>2) ул. Крыленко</p>
 				</div>

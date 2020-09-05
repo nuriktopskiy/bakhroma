@@ -11,7 +11,9 @@ nav a{
 	white-space: nowrap;
 	text-decoration: none;
 	color: white;
-	padding: 13px;
+	padding: 8px;
+    border-radius: 12px;
+    margin: 0px 5px 0px 5px;
 }
 
 nav a:hover{

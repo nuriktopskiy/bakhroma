@@ -10,10 +10,53 @@ header{
 	white-space: nowrap;
 }
 
+.site-name:hover{
+	text-shadow: 0px 0px 12px rgba(150, 150, 150, 1);
+}
+
+.header-other{
+	display: flex;
+	flex-direction: row;
+}
+
+.header-other i{
+	font-size: 22px;
+	margin-bottom: 4px;
+}
+
+.lk{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 7px;
+}
+
+.fav{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 7px;
+}
+
+.cart{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .header-other a{
 	color: black;
 	text-decoration: none;
 	margin: 0px 5px 0 5px;
+	padding: 4px;
+	font-size: 14px;
+}
+
+.header-other a:hover{
+	background: #333;
+	color: white;
+	border-radius: 12px;
+	transition: all 0.1s ease 0s;
 }
 
 .header-search input{
@@ -45,6 +88,7 @@ header{
 
 .header-mobile{
 	font-size: 26px;
+	display: none;
 }
 
 .site-name a{
