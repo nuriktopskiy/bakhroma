@@ -32,7 +32,7 @@ nav a:hover{
   .topnav a:not(:first-child) {display: none;}
   .topnav a.nav-mobile-icon {
   	display: block;
-
+  	padding: 12px 12px 12px 20px;
   }
 
   .topnav.responsive {
@@ -51,6 +51,7 @@ nav a:hover{
     position: absolute;
     right: 0;
     top: 0;
+    padding: 13px 12px 12px 20px;
   }
 
   .topnav a{

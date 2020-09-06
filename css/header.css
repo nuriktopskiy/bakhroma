@@ -61,7 +61,14 @@ header{
 
 .header-search input{
 	padding: 8px;
-	width: 265px;
+    width: 265px;
+    border: 0;
+    border-bottom: 1px solid #666;
+}
+
+.header-search input:focus{
+	box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.35);
+
 }
 
 .mobile-search{

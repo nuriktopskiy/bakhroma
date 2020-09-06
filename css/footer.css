@@ -6,9 +6,7 @@
     display: block;
     cursor: default;
     padding-bottom: 10px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    flex: 0 0 auto;
 }
 
 .footer-container p{

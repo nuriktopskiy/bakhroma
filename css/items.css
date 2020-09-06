@@ -1,6 +1,5 @@
 .row{
   margin-top: 30px;
-  margin-bottom: 175px;
 }
 
 .column {
@@ -27,14 +26,7 @@
 
   .row{
     margin-top: 6px;
-    margin-bottom: 230px;
   }
-}
-
-@media screen and (max-width: 768px) {
-  .row{
-      margin-bottom: 230px;
-    }
 }
 
 .card {
