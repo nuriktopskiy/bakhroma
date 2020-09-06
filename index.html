@@ -12,10 +12,11 @@
 	<link rel="stylesheet" href="css/dropdown.css">
 	<link rel="stylesheet" href="css/footer.css">
 	<link rel="stylesheet" href="css/iconbar.css">
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 	<title>Салон штор Бахрома</title>
 </head>
 <body>
-	<header>
+	<div class="header">
 		<div class="site-name">
 			<a href="index.html">Бахрома</a>
 		</div>
@@ -41,24 +42,46 @@
 			<a href="#" style="text-decoration: none; color: black;"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
 		</div>
 		<script src="js/mobile-search.js"></script>
-	</header>
+	</div>
 
-	<nav class="topnav" id="myTopnav">
-		<a href="#">Главная</a>
-		<a href="#" id="catalog-mobile-off">Каталог</a>
-		<a href="#">Портфолио</a>
-		<a href="#">Контакты</a>
-		<a href="#">О магазине</a>
-		<a href="javascript:void(0);" class="nav-mobile-icon" onclick="myFunction()">
-			<i class="fa fa-bars" aria-hidden="true" style="font-size: 18px;"></i>
-		</a>
-	</nav>
+	<header>
+		<nav class="cd-main-nav-wrapper">
+			<ul class="cd-main-nav">
+				<li><a href="#0">Главная</a></li>
+				<li><a href="#0">Портфолио</a></li>
+				<li><a href="#0">Контакты</a></li>
+				<li><a href="#0">О магазине</a></li>
+				<li>
+					<a href="#0" class="cd-subnav-trigger"><span>Каталог</span></a>
+					<ul>
+						<li class="go-back"><a href="#0">Меню</a></li>
+						<li><a href="#0">Все ткани</a></li>
+						<li><a href="#0">Бархат</a></li>
+						<li><a href="#0">Блэкаут</a></li>
+						<li><a href="#0">Жаккард</a></li>
+						<li><a href="#0">Портьера</a></li>
+						<li><a href="#0">Тафта</a></li>
+						<li><a href="#0">Лён</a></li>
+						<li><a href="#0">Тюль</a></li>
+						<li><a href="#0">Тюль</a></li>
+						<li><a href="#0">Тюль</a></li>
+						<li><a href="#0" class="placeholder">Placeholder</a></li>
+					</ul>
+				</li>
+			</ul> <!-- .cd-main-nav -->
+		</nav> <!-- .cd-main-nav-wrapper -->
+		<a href="#0" class="cd-nav-trigger">Menu<span></span></a>
+	</header>
+	<script src="js/jquery-2.1.1.js"></script>
+	<script src="js/main.js"></script> <!-- Resource jQuery -->
 
 	<div class="mobile-search" id="mobile-search-input">
 		<input type="text" placeholder="Поиск по названию или номеру артикула">
 	</div>
 	<script src="js/nav.js"></script>
-	<div class="mobile-dropdown">
+
+	<main class="cd-main-content">
+		<div class="mobile-dropdown">
 			<div class="dropdown">
 				<button onclick="dropdownFunction()" class="dropbtn">Каталог</button>
 			  	<div id="myDropdown" class="dropdown-content">
@@ -293,5 +316,7 @@
 			</div>
 		</footer>
 	</div> <!-- Конец Wrapper -->
+	</main>
+	
 </body>
 </html>

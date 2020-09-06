@@ -9,6 +9,12 @@
 html, body {height:100%; box-sizing: border-box; margin:0;}
 html {font-size:100.01%;overflow-x:hidden;}
 
+@media screen and (max-width: 1023px){
+	html{
+		overflow-x: visible;
+	}
+}
+
 .wrapper{
 	display: flex;
 	flex-direction: column;
@@ -19,4 +25,8 @@ html {font-size:100.01%;overflow-x:hidden;}
 	flex: 1 0 auto;
 	display: flex;
 	margin-bottom: 40px;
+}
+
+body.overflow-body{
+	overflow: hidden;
 }

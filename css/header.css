@@ -1,4 +1,4 @@
-header{
+.header{
 	display: flex;
 	width: 60%;
 	height: 100px;
@@ -106,19 +106,19 @@ header{
 }
 
 @media screen and (max-width: 1400px) {
-	header{
+	.header{
 		width: 70%;
 	}
 }
 
 @media screen and (max-width: 1120px) {
-	header{
+	.header{
 		width: 80%;
 	}
 }
 
 @media screen and (max-width: 1024px) {
-	header{
+	.header{
 		width: 100%;
 	}
 
